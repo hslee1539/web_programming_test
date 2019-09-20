@@ -3,69 +3,104 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>JS Bin</title>
+    <title>자소서</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <dir class="head">
-        <h1>이희수</h1>
-        <span> phone:</span>
-        <span>01045891539</span>
-        <span>email:</span>
-        <span>qq1539@live.com</span>
-    </dir>
-    <dir class="body">
-        <dir class="index">
-            <h1>Index</h1>
-            <ol>
-                <li>Programing language Skill</li>
-                <li>Library Skill</li>
-                <li>github</li>
-            </ol>
-        </dir>
-        <dir class="programmingLanguageSkill">
-            <h1>1. Programing language Skill</h1>
-            <ol>
-                <li>C</li>
+    <header id="mainHeader">
+        <header>
+            <h1>이희수</h1>
+            <section>
+                <span>phone:</span>
+                <span>01045891539</span>
+            </section>
+            <section>
+                <span>emal:</span>
+                <span>qq1539@live.com</span>
+            </section>
+        </header>
+        <nav>
+            <section>
+                <a href="#programmingLanguageSkill">
+                    <img src="{}.png" alt="{}">
+                    Programming Language Skill
+                </a>
+            </section>
+            <section>
+                <a href="#librarySkill"><img src="block.png" alt="{}">library Skill</a>
+            </section>
+            <section>
+                <a href="#github"><img src="git.png" alt="{}">github</a>
+            </section>
+    </header>
+    <main>
+        <section id="programmingLanguageSkill" class="mainSection">
+            <h2>programing language skill</h2>
+            <section class="subSection">
+                <h3>C</h3>
                 <span>자신있습니다.</span>
-                <li>C++</li>
+            </section>
+            <section class="subSection">
+                <h3>C++</h3>
                 <span>자신있습니다.</span>
-                <li>C#</li>
+            </section>
+            <section class="subSection">
+                <h3>C#</h3>
                 <span>보통입니다.</span>
-                <li>Java</li>
+            </section>
+            <section class="subSection">
+                <h3>Java</h3>
                 <span>보통입니다.</span>
-                <li>Python</li>
+            </section>
+            <section class="subSection">
+                <h3>Python</h3>
                 <span>자신있습니다.</span>
-                <li>HTML</li>
+            </section>
+            <section class="subSection">
+                <h3>HTML</h3>
                 <span>배우고 있습니다.</span>
-                <li>CSS</li>
+            </section>
+            <section class="subSection">
+                <h3>CSS</h3>
                 <span>배우고 있습니다.</span>
-                <li>JavaScript</li>
+            </section>
+            <section class="subSection">
+                <h3>JavaScript</h3>
                 <span>배우고 있습니다.</span>
-            </ol>
-        </dir>
-        <dir class="Program Skill">
-            <h1>2. Library Skill</h1>
-            <ol>
-                <li>numpy</li>
-                <li>openCV</li>
-                <li>openGL</li>
-                <li>ctypes</li>
-                <li>tensorflow</li>
-                <li>pandas</li>
-                <li>sqlite</li>
-                <li>socket</li>
-            </ol>
-        </dir>
-        <dir class="github">
-            <h1>3. Github</h1>
-            <ol>
-                <li>3D engine</li>
-                <li>가계부</li>
-                <li>cnn</li>
-                <li>blockSQL</li>
-                <li>gis</li>
-            </ol>
-        </dir>
-    </dir>
-    </body>
+            </section>
+        </section>
+        <section id="librarySkill" class="mainSection">
+            <h2>Library Skill</h2>
+            <section class="subSection">
+                <h3>openCV</h3>
+            </section>
+            <section class="subSection">
+                <h3>numpy</h3>
+            </section>
+            <section class="subSection">
+                <h3>openGL</h3>
+            </section>
+            <section class="subSection">
+                <h3>sqlite</h3>
+            </section>
+            <section class="subSection">
+                <h3>tensorflow</h3>
+            </section>
+            <section class="subSection">
+                <h3>pandas</h3>
+            </section>
+
+        </section>
+        <section id="github" class="mainSection">
+            <h2>github</h2>
+            <section class="subSection">
+                <h3>blockSQL</h3>
+                <iframe src="https://hslee1539.github.io/blockSQL/#1summary" frameborder="0"></iframe>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <span>footer</span>
+    </footer>
+</body>
 </html>
