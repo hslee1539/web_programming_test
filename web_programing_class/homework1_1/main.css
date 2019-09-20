@@ -1,9 +1,35 @@
-html, body, header, nav, main, section, footer {
-    float: left;
+body, html {
     width: 100%;
     padding: 0;
     margin: 0;
 }
+
+header, nav, main, section, footer {
+    float: left;
+    width: 98%;
+    padding: 1%;
+    margin: 0;
+}
+h1{
+    font-size: 12vw;
+    margin: 1%;
+}
+h2{
+    font-size:7vw;
+    margin:1%;
+}
+h3{
+    font-size:4vw;
+    margin: 1%;
+}
+h4{
+    font-size: 2vw;
+    margin: 1%;
+}
+span{
+    font-size: 2vw;
+}
+
 iframe{
     width:80%;
 }
@@ -11,36 +37,38 @@ iframe{
     background-color: black;
     color: aliceblue;
 }
+#mainHeader>header{
+    width: 96%;
+    margin: 1%;
+}
 #mainHeader>header>section{
     width: auto;
-    margin-right: 15px;
-}
-#mainHeader>header>section>span{
-    margin-right: 5px;
+    margin: 1%;
 }
 #mainHeader>nav{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 
 #mainHeader>nav>section{
     width: auto;
     margin: 1%;
-    padding: 1%;
 }
 #mainHeader>nav>section>a{
-    float: left;
-    font-size: 14pt;
+    font-size: 2vw;
 }
 #mainHeader>nav>section>a>img{
-    float: left;
-    height: 14pt;
+    height: 2vw;
 }
 
 #programmingLanguageSkill>section{
     width: auto;
-    padding: 1%;
+    margin: 1%;
+    background-color: blanchedalmond;
+}
+#librarySkill>section{
+    width:auto;
     margin: 1%;
     background-color: blanchedalmond;
 }
