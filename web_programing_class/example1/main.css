@@ -1,0 +1,67 @@
+html, body, nav, header, main, section, footer {
+    float: left;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100vh;
+}
+
+header{
+    height: 20vh;
+    background-color: rgb(59, 59, 59);
+}
+main{
+    height: 60vh;
+}
+footer{
+    height: 20vh;
+    background-color: rgb(44, 44, 44);
+}
+
+label{
+    float:left;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    font-size: 10vh;
+}
+
+button {
+    float: left;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border: 0;
+}
+.output{
+    height: 15vh;
+    background-color: rgb(182, 182, 182);
+}
+
+.numPad {
+    width: 75vw;
+    height: 45vh;
+}
+
+.operatorPad {
+    width: 25vw;
+    height: 45vh;
+}
+
+.numPad > button {
+    width: 23vw;
+    height: 9.25vh;
+}
+
+.operatorPad > button{
+    width: 23vw;
+    height: 9.25vh;
+}

@@ -7,33 +7,31 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header id="mainHeader">
-        <header>
-            <h1>이희수</h1>
-            <section>
-                <span>phone:</span>
-                <span>01045891539</span>
-            </section>
-            <section>
-                <span>emal:</span>
-                <span>qq1539@live.com</span>
-            </section>
+    <header id="mainHeader" class="baseFrame">
+        <header class="title">
+            <h1 class="text">이희수</h1>
+            <h4 class="subText">
+                phone:
+                01045891539
+                emal:  qq1539@live.com
+            </h4>
         </header>
-        <nav>
-            <section>
-                <a href="#programmingLanguageSkill">
-                    <img src="{}.png" alt="{}">
-                    Programming Language Skill
-                </a>
-            </section>
-            <section>
-                <a href="#librarySkill"><img src="block.png" alt="{}">library Skill</a>
-            </section>
-            <section>
-                <a href="#github"><img src="git.png" alt="{}">github</a>
-            </section>
+        <nav class="menu">
+            <a href="#programmingLanguageSkill" class="item">
+                <img src="{}.png" alt="{}" class="icon4">
+                <h4 class="text">Programming Language Skill</h4>
+            </a>
+            <a href="#librarySkill" class="item">
+                <img src="block.png" alt="{}" class="icon4">
+                <h4 class="text">library Skill</h4>
+            </a>
+            <a href="#github" class="item">
+                <img src="git.png" alt="{}" class="icon4">
+                <h4 class="text">github</h4>
+            </a>
+        </nav>
     </header>
-    <main id="mainMain">
+    <main id="mainMain" class="baseFrame">
         <section id="programmingLanguageSkill" class="mainSection">
             <h2>programing language skill</h2>
             <section class="subSection">
@@ -91,6 +89,9 @@
             <section class="subSection">
                 <h3>pandas</h3>
             </section>
+            <section class="subSection">
+                <h3>mongoDB</h3>
+            </section>
 
         </section>
         <section id="github" class="mainSection">
@@ -99,10 +100,26 @@
                 <h3>blockSQL</h3>
                 <iframe src="https://hslee1539.github.io/blockSQL/#1summary" frameborder="0"></iframe>
             </section>
+            <section class="subSection">
+                <h3>cnn</h3>
+                <iframe src="https://hslee1539.github.io/cnn" frameborder="0"></iframe>
+            </section>
         </section>
     </main>
     <footer>
-        <span>footer</span>
+        <nav class="menu">
+            <center>
+                <a href="./login.html" class="item">
+                    <h4 class="text">로그인</h4>
+                </a>
+                <a href="" class="item">
+                    <h4 class="text">친구 맺기</h4>
+                </a>
+                <a href="" class="item">
+                    <h4 class="text">회원 가입</h4>
+                </a>
+            </center>
+        </nav>
     </footer>
 </body>
 </html>

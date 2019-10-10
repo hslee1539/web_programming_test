@@ -1,0 +1,35 @@
+html, body {
+    float: left;
+    width: 100vw;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+header, section, nav, main, footer{
+    float: left;
+    width: 100vw;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to right, purple 30%, black)
+}
+
+
+
+nav > .item{
+    width: auto;
+    padding: 1%;
+}
+
+nav > section > .link{
+    color: white;
+    text-decoration: none;
+}
+
+nav > section > a > img{
+    height: 20px;
+
+}
