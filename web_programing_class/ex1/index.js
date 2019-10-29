@@ -11,7 +11,7 @@ function add(){
         <h3>
             {number}. {value}
         </h3>
-    `.replace("{number}", musicList.children.length + 1).replace("{value}", musicInput.value);
+    `.replace("{number}", musicList.childElementCount + 1).replace("{value}", musicInput.value);
     musicList.appendChild(newItem);
     let jsonRaw = localStorage[localStorageKey];
     let jsonObject = JSON.parse(jsonRaw);
@@ -21,7 +21,7 @@ function add(){
 
 function onLoad(){
     let jsonRaw = localStorage.getItem(localStorageKey);
-    if(jsonRaw = undefined){
+    if(jsonRaw == null){
         jsonRaw = `{"list":[]}`;
         localStorage[localStorageKey] = jsonRaw;
     }
