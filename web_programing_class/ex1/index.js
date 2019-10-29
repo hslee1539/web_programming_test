@@ -2,7 +2,7 @@
 var musicList = document.getElementById("musicList");
 var musicInput = document.getElementById("musicInput");
 
-localStorageKey = "file:///C:/Users/qq153/OneDrive/project/web_programming_test/web_programming_test/web_programing_class/ex1/index.html";
+localStorageKey = "json";
 
 function add(){
     let newItem = document.createElement("section");
