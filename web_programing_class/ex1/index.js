@@ -2,7 +2,7 @@
 var musicList = document.getElementById("musicList");
 var musicInput = document.getElementById("musicInput");
 
-localStorageKey = "json";
+var localStorageKey = "json";
 
 function add(){
     let newItem = document.createElement("section");
@@ -17,6 +17,16 @@ function add(){
     let jsonObject = JSON.parse(jsonRaw);
     jsonObject["list"].push(musicInput.value);
     localStorage[localStorageKey] = JSON.stringify(jsonObject);
+}
+
+function deleteLast(){
+    if(musicList.childElementCount > 0){
+        musicList.removeChild(musicList.lastChild);
+        let jsonRaw = localStorage[localStorageKey];
+        let jsonObject = JSON.parse(jsonRaw);
+        jsonObject["list"].pop();
+        localStorage[localStorageKey] = JSON.stringify(jsonObject);
+    }
 }
 
 function onLoad(){
